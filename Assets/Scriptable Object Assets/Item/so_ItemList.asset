@@ -309,3 +309,15 @@ MonoBehaviour:
     canBeDropped: 0
     canBeEaten: 0
     canBeCarried: 0
+  - itemCode: 10024
+    itemType: 4
+    itemDescription: Sword
+    itemSprite: {fileID: 21300000, guid: 8943c24c26e485e4cb14d92c2234106d, type: 3}
+    itemLongDescription: Sword
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0

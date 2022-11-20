@@ -9,6 +9,7 @@ public class UIManager : SingletonMonobehaviour<UIManager>
     [SerializeField] private PauseMenuInventoryManagement pauseMenuInventoryManagement = null;
     [SerializeField] private GameObject pauseMenu = null;
     [SerializeField] private GameObject[] menuTabs = null;
+    [SerializeField] private GameObject shopMenu = null;
     [SerializeField] private Button[] menuButtons = null;
 
     public bool PauseMenuOn { get => _pauseMenuOn; set => _pauseMenuOn = value; }
@@ -18,6 +19,7 @@ public class UIManager : SingletonMonobehaviour<UIManager>
         base.Awake();
 
         pauseMenu.SetActive(false);
+        shopMenu.SetActive(false);
     }
 
     // Update is called once per frame
